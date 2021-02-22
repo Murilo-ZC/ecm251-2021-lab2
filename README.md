@@ -2,8 +2,8 @@
 Repositório criado para a disciplina Linguagens I.
 
 # Desenvolvedor(a):
-## Murilo Zanini de Carvalho
-
+- Murilo Zanini de Carvalho
+[comment]: <> (Comentário no Markdown)
 # Linguagens e Frameworks:
 - Java
 - Python
