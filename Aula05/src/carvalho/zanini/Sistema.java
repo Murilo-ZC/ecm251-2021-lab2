@@ -22,6 +22,15 @@ public class Sistema {
                 System.out.println("Obrigado por ter utilizado o sistema!");
                 this.executarSistema = false;
                 break;
+            case 1:
+                System.out.println("Saldo: R$" + this.conta.getSaldo());
+                break;
+            case 2:
+                System.out.println("Informe um valor para depositar:");
+                double valorParaDepositar = scanner.nextDouble();
+                this.conta.depositar(valorParaDepositar);
+                System.out.println("Operação realizada com sucesso!");
+                break;
             default:
                 System.out.println("Opção ainda não implementada!");
                 break;
